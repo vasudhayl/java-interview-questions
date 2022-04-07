@@ -31,5 +31,7 @@ public class CopyConstructor {
 		
 		Complex c3 = c2;
 		System.out.println(c2);
+		System.out.println(c3);
+
 	}
 }

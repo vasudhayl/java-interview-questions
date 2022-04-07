@@ -6,7 +6,7 @@ import java.lang.String;
 
 public class ArrayListSpliterator {
 
-	public static void main(String[] args) {
+	static void main(String[] args) {
 		ArrayList<String> list = new ArrayList<String>();
 		
 		list.add("abc@gmail.com");
@@ -21,3 +21,4 @@ public class ArrayListSpliterator {
 		emails.forEachRemaining((n) -> System.out.println(n));
 	}
 }
+      
